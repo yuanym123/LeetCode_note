@@ -6,7 +6,7 @@
  * @complexity 时间复杂度O(n)，空间复杂度O(1)
  */
 public class numberSeeOnlyOnce_easy {
-    public int singleNumber(int[] nums) {
+    public int singleNumber1(int[] nums) {
         if (nums.length == 1) {
             return nums[0];
         }
@@ -15,5 +15,10 @@ public class numberSeeOnlyOnce_easy {
             result = result ^ nums[i];
         }
         return result;
+    }
+    public static void main(String[] args) {
+        int[] nums = new int[]{1,2,2};
+        numberSeeOnlyOnce_easy test = new numberSeeOnlyOnce_easy();
+        System.out.println(test.singleNumber1(nums));
     }
 }
