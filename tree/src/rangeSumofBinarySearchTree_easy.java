@@ -5,6 +5,7 @@
  *                               一的值。
  *                               提示：树中的结点数量最多为 10000 个。最终的答案保证小于 2^31。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉搜索树，先序遍历
  */
 public class rangeSumofBinarySearchTree_easy {
     public int rangeSumBST(TreeNode root, int L, int R) {

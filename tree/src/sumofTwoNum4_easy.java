@@ -7,6 +7,7 @@ import java.util.List;
  * @title 653.两数之和IV-输入BST：给定一个二叉搜索树和一个目标结果，如果 BST 中存在两个元素且它们的和等于给定的目标结果，
  *                               则返回 true。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉搜索树，中序遍历
  */
 public class sumofTwoNum4_easy {
     List<Integer> in = new ArrayList<>();

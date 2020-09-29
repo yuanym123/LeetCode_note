@@ -6,6 +6,7 @@
  *                                    ，也就是 13 。对树上的每一片叶子，我们都要找出从根到该叶子的路径所表示的数字。
  *                                    提示：树中的结点数介于 1 和 1000 之间。node.val 为 0 或 1 。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，路径遍历，先序遍历
  */
 public class bitSumFromRoot2Leaf_easy {
     int result = 0;

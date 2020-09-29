@@ -10,6 +10,7 @@ import java.util.Queue;
  *                               true。否则，返回 false。
  *                               提示：二叉树的节点数介于 2 到 100 之间。每个节点的值都是唯一的、范围为 1 到 100 的整数。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，层次遍历
  */
 public class cousinNodeofBinaryTree_easy {
     public boolean isCousins(TreeNode root, int x, int y) {

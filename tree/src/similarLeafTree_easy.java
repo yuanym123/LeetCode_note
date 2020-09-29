@@ -9,6 +9,7 @@ import java.util.List;
  *                         树是叶相似的，则返回 true；否则返回 false 。
  *                         提示：给定的两颗树可能会有 1 到 200 个结点。给定的两颗树上的值介于 0 到 200 之间。
  * @complexity 时间复杂度O(m+n)，空间复杂度O(m+n)
+ * @key 2二叉树，先序遍历
  */
 public class similarLeafTree_easy {
     List<Integer> l1 = new ArrayList<>();

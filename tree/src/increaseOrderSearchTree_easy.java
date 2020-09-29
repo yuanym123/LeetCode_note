@@ -8,6 +8,7 @@ import java.util.List;
  *                           点，只有一个右子结点。
  *                           提示：给定树中的结点数介于 1 和 100 之间。每个结点都有一个从 0 到 1000 范围内的唯一整数值。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，中序遍历+先序遍历
  */
 public class increaseOrderSearchTree_easy {
     List<Integer> l = new ArrayList<>();

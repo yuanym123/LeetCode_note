@@ -6,6 +6,7 @@ import java.util.Queue;
  * @date 2020/09/14
  * @title 101.对称二叉树：给定一个二叉树，检查它是否是镜像对称的。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，先序遍历
  */
 public class symmetricTree_easy {
     // 递归

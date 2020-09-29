@@ -7,6 +7,7 @@ import java.util.Stack;
  * @date 2020/09/24
  * @title 589.N叉树的前序遍历：给定一个 N 叉树，返回其节点值的前序遍历。
  * @complexity 时间复杂度O(n)，空间复杂度O(h)
+ * @key N叉树，先序遍历
  */
 public class preOrderofNTree_easy {
     public List<Integer> preorder1(Node root) {

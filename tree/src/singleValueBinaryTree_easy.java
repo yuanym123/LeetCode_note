@@ -5,6 +5,7 @@
  *                        true；否则返回 false。
  *                        提示：给定树的节点数范围是 [1, 100]。每个节点的值都是整数，范围为 [0, 99] 。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，先序遍历
  */
 public class singleValueBinaryTree_easy {
     boolean flag = true;

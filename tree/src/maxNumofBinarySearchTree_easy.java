@@ -8,6 +8,7 @@ import java.util.List;
  *                               假定 BST 有如下定义：结点左子树中所含结点的值小于等于当前结点的值；结点右子树中所含结点
  *                               的值大于等于当前结点的值；左子树和右子树都是二叉搜索树
  * @complexity 时间复杂度O(n)，空间复杂度O(h)
+ * @key 1二叉搜索树，中序遍历
  */
 public class maxNumofBinarySearchTree_easy {
     List<Integer> res = new ArrayList<>();

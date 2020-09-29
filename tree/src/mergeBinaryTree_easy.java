@@ -5,6 +5,7 @@
  *                       合并为一个新的二叉树。合并的规则是如果两个节点重叠，那么将他们的值相加作为节点合并后的新值，否则不为
  *                       NULL 的节点将直接作为新二叉树的节点。
  * @complexity 时间复杂度O(max(m,n))，空间复杂度O(m+n)
+ * @key 2二叉树，先序遍历
  */
 public class mergeBinaryTree_easy {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {

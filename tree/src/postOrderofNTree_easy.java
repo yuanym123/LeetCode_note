@@ -7,6 +7,7 @@ import java.util.Stack;
  * @date 2020/09/24
  * @title 590.N叉树的后序遍历：给定一个 N 叉树，返回其节点值的后序遍历。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key N叉树，后序遍历
  */
 public class postOrderofNTree_easy {
     public List<Integer> postorder1(Node root) {

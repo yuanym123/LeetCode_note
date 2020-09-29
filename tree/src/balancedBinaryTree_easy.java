@@ -3,6 +3,7 @@
  * @date 2020/09/23
  * @title 110.平衡二叉树：给定一个二叉树，判断它是否是高度平衡的二叉树。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1平衡二叉树，全局变量+深度求解，先序遍历
  */
 public class balancedBinaryTree_easy {
     boolean flag = true;

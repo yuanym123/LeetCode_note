@@ -5,6 +5,7 @@
  *                                 一个节点有两个子节点的话，那么该节点的值等于两个子节点中较小的一个。给出这样的一个二叉
  *                                 树，你需要输出所有节点中的第二小的值。如果第二小的值不存在的话，输出 -1 。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，先序遍历
  */
 public class secondMinNodeofBinaryTree_easy {
     int result = -1;

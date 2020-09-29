@@ -5,6 +5,7 @@
  *                                 空括号 "()" 表示。而且你需要省略所有不影响字符串与原始二叉树之间的一对一映射关系的空括号
  *                                 对。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，先序遍历
  */
 public class binaryTree2Str_easy {
     public String tree2str(TreeNode t) {

@@ -6,6 +6,7 @@ import java.util.List;
  * @date 2020/09/23
  * @title 257.二叉树的所有路径：给定一个二叉树，返回所有从根节点到叶子节点的路径。说明: 叶子节点是指没有子节点的节点。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，路径遍历，先序遍历
  */
 public class allPathofBinaryTree_easy {
     public List<String> binaryTreePaths(TreeNode root) {

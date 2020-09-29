@@ -6,6 +6,7 @@
  *                                       的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
  *                                       说明:所有节点的值都是唯一的。p、q 为不同节点且均存在于给定的二叉树中。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，后序遍历
  */
 public class nearestParentofBinaryTree_easy {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

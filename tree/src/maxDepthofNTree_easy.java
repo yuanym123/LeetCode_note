@@ -5,6 +5,7 @@ import java.util.List;
  * @date 2020/09/24
  * @title 559.N叉树的最大深度：给定一个 N 叉树，找到其最大深度。最大深度是指从根节点到最远叶子节点的最长路径上的节点总数。
  * @complexity 时间复杂度O(n)，空间复杂度O(h)
+ * @key N叉树，先序遍历
  */
 class Node {
     public int val;

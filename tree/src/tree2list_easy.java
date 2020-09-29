@@ -5,6 +5,7 @@
  *                            法，把二叉搜索树转换为单向链表，要求依然符合二叉搜索树的性质，转换操作应是原址的，也就是在原
  *                            始的二叉搜索树上直接修改。返回转换后的单向链表的头节点。
  * @complexity 时间复杂度O(n)，空间复杂度O(n)
+ * @key 1二叉树，中序遍历
  */
 public class tree2list_easy {
     TreeNode pre = null;
