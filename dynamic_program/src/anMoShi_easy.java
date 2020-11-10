@@ -24,4 +24,8 @@ public class anMoShi_easy {
         }
         return t2;
     }
+    public static void main(String[] args) {
+        anMoShi_easy test = new anMoShi_easy();
+        System.out.println(test.massage(new int[]{1,2,3}));
+    }
 }
